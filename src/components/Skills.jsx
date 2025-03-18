@@ -1,7 +1,8 @@
-
+import {motion} from 'framer-motion'
 const Skills = () => {
   return (
-    <div className="text-center bg-black h-screen">
+    <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:'easeOut'}}>
+        <div className="text-center bg-black h-screen">
         <div className="text-white font-mono text-3xl pb-20 pt-20">Techincal Skills</div>
         <div className="flex justify-center gap-6">
             <div>
@@ -28,7 +29,8 @@ const Skills = () => {
             </div>
         </div>
         <div className="font-mono text-white text-3xl pt-20 pb-20">Non-Technical Skills</div>
-    </div>
+        </div>
+    </motion.main>
   );
 }
 
