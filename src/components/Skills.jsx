@@ -29,7 +29,7 @@ const Skills = () => {
             </div>
             <div>
                 <img src='https://img.icons8.com/?size=100&id=8verEw3iUvx0&format=png&color=000000' alt='git' className='h-10'/>
-                <p className="text-white font-mono">git</p>
+                <p className="text-white font-mono">Git</p>
             </div>
         </div>
         </div>
