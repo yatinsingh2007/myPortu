@@ -1,0 +1,31 @@
+import { DotLottieReact } from "@lottiefiles/dotlottie-react"
+import {motion} from "framer-motion"
+const Contact = () => {
+  return (
+    <>
+        <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
+            <div className="mt-48 flex gap-8">
+                <div className="ml-12">
+                    <div className="flex justify-center items-center">
+                        <h1 className="text-white font-mono text-4xl text-center">Contact Me</h1>
+                        <DotLottieReact src="https://lottie.host/faded867-64d2-4d4f-adfe-5b10476714fb/9A2nTN6BzD.lottie" loop autoplay className="w-52"/>
+                    </div>
+                    <div>
+                        <p className="text-white font-mono text-center">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL?</p>
+                        <p className="text-white font-mono text-left text-2xl p-5">+91-0000000000</p>
+                        <p className="text-white font-mono text-left text-2xl">yatin4591@gmail.com</p>
+                    </div>
+                </div>
+                <div className="flex justify-center items-center">
+                    <DotLottieReact src="https://lottie.host/0e7433d7-9d3a-4bd3-ad0a-184aae0bbb7f/9rniCeSyR0.lottie" loop autoplay className="w-72"/>
+                </div>
+            </div>
+        </motion.main>
+        
+        <div>
+        </div>
+    </>
+  )
+}
+
+export default Contact
