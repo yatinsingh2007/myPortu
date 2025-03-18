@@ -14,7 +14,7 @@ const Navbar = () => {
       {!loader && 
       <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
         <header>
-        <nav className="bg-zinc-950 flex justify-between font-mono px-5 py-5 text-white pb-5">
+        <nav className="bg-black flex justify-between font-mono px-5 py-5 text-white pb-5 opacity-70">
           <div className="primary-nav font-extrabold text-xl hidden md:block">
             Portfolio
           </div>
