@@ -4,7 +4,7 @@ const Skills = () => {
     <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:'easeOut'}}>
         <div className="text-center bg-black h-screen">
         <div className="text-white font-mono text-3xl pb-20 pt-20">Techincal Skills</div>
-        <div className="flex justify-center gap-6">
+        <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:mt-28">
             <div>
                 <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML" className="h-10"/>
                 <p className="text-white font-mono">HTML</p>
@@ -27,8 +27,11 @@ const Skills = () => {
                 <img src="https://img.icons8.com/?size=100&id=t5K2CR8feVdX&format=png&color=000000" alt="React" className="h-10"/>
                 <p className="text-white font-mono">React</p>
             </div>
+            <div>
+                <img src='https://img.icons8.com/?size=100&id=8verEw3iUvx0&format=png&color=000000' alt='git' className='h-10'/>
+                <p className="text-white font-mono">git</p>
+            </div>
         </div>
-        <div className="font-mono text-white text-3xl pt-20 pb-20">Non-Technical Skills</div>
         </div>
     </motion.main>
   );
