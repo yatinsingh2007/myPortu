@@ -4,16 +4,16 @@ const Contact = () => {
   return (
     <>
         <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
-            <div className="mt-48 flex gap-8">
-                <div className="ml-12">
+            <div className="mt-32 flex flex-col gap-36 md:flex-row md:gap-24">
+                <div className="ml-8">
                     <div className="flex justify-center items-center">
-                        <h1 className="text-white font-mono text-4xl text-center">Contact Me</h1>
+                        <h1 className="text-white font-mono text-4xl text-center p-10">Contact Me</h1>
                         <DotLottieReact src="https://lottie.host/faded867-64d2-4d4f-adfe-5b10476714fb/9A2nTN6BzD.lottie" loop autoplay className="w-52"/>
                     </div>
                     <div>
-                        <p className="text-white font-mono text-center">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL?</p>
-                        <p className="text-white font-mono text-left text-2xl p-5">+91-0000000000</p>
-                        <p className="text-white font-mono text-left text-2xl">yatin4591@gmail.com</p>
+                        <p className="text-white font-mono text-center p-8">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL?</p>
+                        <p className="text-white font-mono text-center p-6 md:text-left">+91-7995934899</p>
+                        <p className="text-white font-mono text-center p-6 text-2xl md:text-left">yatin4591@gmail.com</p>
                     </div>
                 </div>
                 <div className="flex justify-center items-center">
