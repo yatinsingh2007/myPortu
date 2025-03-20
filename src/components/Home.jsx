@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       {loader ? (
-        <div className="flex justify-center items-center pt-64">
+        <div className="flex justify-center items-center pt-72">
         <DotLottieReact
           src="https://lottie.host/75353f69-e2e5-4de9-ade3-6cc6e701228b/xDzf00cBIp.lottie"
           loop
@@ -23,7 +23,7 @@ const Home = () => {
       ) : (
         <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
           <main className=" text-white h-screen px-3">
-            <div className="flex flex-col justify-center items-center gap-36 pt-24">
+            <div className="flex flex-col justify-center items-center gap-36 pt-32">
               <div className="flex gap-10">
                 <div className="font-mono py-15 px-24 md:px-16 md:text-lg pl-16 pr-0">
                   <div className="pb-10 text-4xl font-bold">
