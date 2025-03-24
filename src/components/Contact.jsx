@@ -6,7 +6,7 @@ const Contact = () => {
         <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
             <div className="mt-32 flex flex-col gap-36 md:flex-row md:gap-24">
                 <div className="ml-10">
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-start items-center">
                         <h1 className="text-white font-mono text-4xl text-center p-10">Contact Me</h1>
                         <DotLottieReact src="https://lottie.host/faded867-64d2-4d4f-adfe-5b10476714fb/9A2nTN6BzD.lottie" loop autoplay className="w-52"/>
                     </div>
