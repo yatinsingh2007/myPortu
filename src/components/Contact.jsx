@@ -11,7 +11,7 @@ const Contact = () => {
                         <DotLottieReact src="https://lottie.host/faded867-64d2-4d4f-adfe-5b10476714fb/9A2nTN6BzD.lottie" loop autoplay className="w-52"/>
                     </div>
                     <div>
-                        <p className="text-white font-mono text-center p-8">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL?</p>
+                        <p className="text-white font-mono text-center p-8">Discuss a Project or just want to say Hi! My inbox is open for all.</p>
                         <p className="text-white font-mono text-center p-6 md:text-left">+91-7995934899</p>
                         <p className="text-white font-mono text-center p-6 text-2xl md:text-left">yatin4591@gmail.com</p>
                     </div>
