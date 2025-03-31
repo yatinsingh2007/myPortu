@@ -14,7 +14,7 @@ const Navbar = () => {
       {!loader && 
       <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
         <header>
-        <nav className="bg-black flex justify-center font-mono px-5 py-5 text-white opacity-70 items-center lg:text-3xl md:text-xl sm:gap-1">
+        <nav className="bg-black flex justify-center font-mono px-5 py-5 text-white opacity-70 items-center lg:text-2xl md:text-xl sm:gap-1">
           <div className="flex gap-20 md:gap-10 sm:pl-48">
             <div className="p-2 hover:bg-white rounded-md hover:text-black"><Link to="/home" className="group-hover:text-black px-2">Home</Link></div>
             <div className="p-2 hover:bg-white rounded-md hover:text-black"><Link to="/skills" className="group-hover:text-black px-2">Skills</Link></div>
