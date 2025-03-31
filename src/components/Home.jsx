@@ -10,7 +10,7 @@ const Home = () => {
     return () => clearTimeout(timer);
   }, []);
   return (
-    <div className="sm: pl-40">
+    <div>
       {loader ? (
         <div className="flex justify-center items-center pt-72">
         <DotLottieReact
