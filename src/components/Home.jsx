@@ -23,7 +23,7 @@ const Home = () => {
       ) : (
         <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
           <main className=" text-white h-screen px-3">
-            <div className="flex flex-col justify-center items-center gap-36 pt-32 lg:gap-48 sm:pl-48">
+            <div className="flex flex-col justify-center items-center gap-36 pt-32 lg:gap-48">
               <div className="flex gap-10">
                 <div className="font-mono py-15 px-24 md:px-16 md:text-lg pl-16 pr-0">
                   <div className="pb-10 text-4xl font-bold">
