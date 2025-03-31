@@ -27,7 +27,7 @@ const Home = () => {
               <div className="flex gap-10">
                 <div className="font-mono py-15 px-24 md:px-16 md:text-lg pl-16 pr-0">
                   <div className="pb-10 text-4xl font-bold">
-                      <h1 className="font-mono" style={{fontSize : '3rem',lineHeight:'70px'}}>Hey !, I am Yatin Singh</h1>
+                      <h1 className="font-mono" style={{fontSize : '3rem',lineHeight:'70px'}}>Hey !,I am Yatin Singh</h1>
                   </div>
                   <div className="pb-12 text-xl pt-8">
                     <h3>Aspiring Web Developer</h3>
