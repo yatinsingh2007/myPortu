@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
         <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
-            <div className="mt-32 flex flex-col gap-36 md:flex-row md:gap-24">
+            <div className="mt-32 flex flex-col gap-36 md:flex-row md:gap-24 lg:text-xl">
                 <div className="ml-10">
                     <div className="flex justify-start items-center">
                         <h1 className="text-white font-mono text-4xl text-center p-10">Contact Me</h1>
