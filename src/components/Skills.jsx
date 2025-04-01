@@ -19,7 +19,7 @@ const Skills = () => {
           className="w-64"
         />
         </div> :  <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:'easeOut'}}>
-            <div className="text-center flex flex-col justify-center items-center ml-48 sm:ml-0">
+            <div className="text-center flex flex-col justify-center items-center ml-48 text-xl sm:ml-0 sm:text-lg">
             <div className="text-white font-mono text-3xl pb-20 pt-20">Techincal Skills</div>
             <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:mt-28">
                 <div>
@@ -31,12 +31,12 @@ const Skills = () => {
                     <p className="text-white font-mono">CSS</p>
                 </div>
                 <div>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center items-center">
                         <img src="https://img.icons8.com/?size=100&id=RwtOBojoLS2N&format=png&color=000000" alt="JavaScript" className="h-10"/>
                     </div>
                     <p className="text-white font-mono">JavaScript</p>
                 </div>
-                <div>
+                <div className='flex flex-col justify-center'>
                     <img src="https://img.icons8.com/?size=100&id=l75OEUJkPAk4&format=png&color=000000" alt="Python" className="h-10"/>
                     <p className="text-white font-mono">Python</p>
                 </div>
