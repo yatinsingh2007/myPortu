@@ -19,7 +19,7 @@ const Skills = () => {
           className="w-64"
         />
         </div> :  <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:'easeOut'}}>
-            <div className="text-center h-screen">
+            <div className="text-center flex flex-col justify-center items-center">
             <div className="text-white font-mono text-3xl pb-20 pt-20">Techincal Skills</div>
             <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:mt-28">
                 <div>
