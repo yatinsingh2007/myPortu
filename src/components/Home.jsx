@@ -40,8 +40,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div>
-                <DotLottieReact src="https://lottie.host/7738cf09-a7b9-4bf6-bbe7-962cffe2e1cc/PQ2riw0yMH.lottie" loop autoplay className="pr-8 w-96"/>
-
+                  <DotLottieReact src="https://lottie.host/179e8470-fd79-4667-ac43-fececc46b045/QQHLXFRhwn.lottie" loop autoplay className="w-96 h-96"/>
                 </div>
               </div>
               <div className="flex gap-32">
