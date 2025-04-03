@@ -7,7 +7,7 @@ const Skills = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setLoader(false)
-        },2000)
+        },2350)
         return () => clearInterval(timer)
     },[])
   return (

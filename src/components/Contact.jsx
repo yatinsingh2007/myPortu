@@ -1,5 +1,6 @@
-import { DotLottieReact } from "@lottiefiles/dotlottie-react"
-import {motion} from "framer-motion"
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import {motion} from "framer-motion";
+import { FaInstagram } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
@@ -14,9 +15,14 @@ const Contact = () => {
                         <p className="text-white font-mono text-center p-8">Discuss a Project or just want to say Hi! My inbox is open for all.</p>
                         <p className="text-white font-mono text-center p-6 md:text-left">+91-7995934899</p>
                         <p className="text-white font-mono text-center p-6 text-2xl md:text-left">yatin4591@gmail.com</p>
+                        <div className="flex items-center justify-center p-4">
+                        <a href="https://www.instagram.com/yatinsingh2007" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-600 text-3xl">
+                            <FaInstagram />
+                        </a>
+                    </div>
                     </div>
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center cursor-pointer">
                     <DotLottieReact src="https://lottie.host/0e7433d7-9d3a-4bd3-ad0a-184aae0bbb7f/9rniCeSyR0.lottie" loop autoplay className="w-72"/>
                 </div>
             </div>
