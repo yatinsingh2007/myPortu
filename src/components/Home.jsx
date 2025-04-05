@@ -9,6 +9,16 @@ const Home = () => {
     }, 2350);
     return () => clearTimeout(timer);
   }, []);
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.4, // delay between each child
+        delayChildren: 0.2,
+      },
+    },
+  };
   return (
     <div>
       {loader ? (
@@ -34,8 +44,8 @@ const Home = () => {
                         <DotLottieReact src="https://lottie.host/179e8470-fd79-4667-ac43-fececc46b045/QQHLXFRhwn.lottie" loop autoplay className="w-96 h-96"/>
                       </div>
                   </div>
-                  <div className="px-10 py-5">
-                    <div className="pb-12 text-xl pt-8">
+                  <div className="text-white px-4 md:px-12 lg:px-24 py-16 max-w-4xl mx-auto font-mono text-left">
+                    <div className="pb-12 text-xl pt-8 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
                       <h3>Aspiring Web Developer</h3>
                     </div>
                     <div>
@@ -56,19 +66,23 @@ const Home = () => {
             </div>
             <div>
               <section className="text-white px-4 md:px-12 lg:px-24 py-16 max-w-4xl mx-auto font-mono text-center">
-              <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-8">About Me</h2>
-              <p className="text-lg leading-8 font-light">
+              <motion.div initial = {{opacity : 0 , x : -30}} whileInView={{ opacity: 1, x: 0 }} transition={{duration:2,ease : 'easeOut'}} viewport={{ once: true, amount: 1 }} variants={containerVariants}><h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-8">About Me</h2></motion.div>
+              <motion.div initial = {{opacity : 0 , x : -30}} whileInView={{ opacity: 1, x: 0 }} transition={{duration:1,ease : 'easeOut'}} viewport={{ once: true, amount: 1 }} variants={containerVariants}><p className="text-lg leading-8 font-light">
                 I'm <span className="font-semibold text-cyan-400">Yatin Singh</span>, a first-year BTech student at Newton School of Technology, currently pursuing Computer Science & Artificial Intelligence. 💻 I'm passionate about tech, especially frontend development, and love bringing creative ideas to life through code.
-              </p>
+              </p></motion.div>
+              <motion.div initial = {{opacity : 0 , x : -30}} whileInView={{ opacity: 1, x: 0 }} transition={{duration:2,ease : 'easeOut'}} viewport={{ once: true, amount: 1 }} variants={containerVariants}>
               <p className="text-lg leading-8 font-light mt-6">
                 Outside the classroom, I spend my time exploring the web, watching anime✨, diving into podcasts🎧, and occasionally stargazing—because astronomy truly fascinates me. 🔭 These interests fuel my curiosity and inspire my creativity in development.
-              </p>
+              </p></motion.div>
+              <motion.div initial = {{opacity : 0 , x : -30}} whileInView={{ opacity: 1, x: 0 }} transition={{duration:3,ease : 'easeOut'}} viewport={{ once: true, amount: 1 }} variants={containerVariants}>
               <p className="text-lg leading-8 font-light mt-6">
                 I'am also the part of <span className="font-semibold text-yellow-300">Dev-club</span> at my college to collaborate, learn, and grow with like-minded peers.
-              </p>
+              </p></motion.div>
+              <motion.div initial = {{opacity : 0 , x : -30}} whileInView={{ opacity: 1, x: 0 }} transition={{duration:4,ease : 'easeOut'}} viewport={{ once: true, amount: 1 }} variants={containerVariants}>
               <p className="text-lg leading-8 font-light mt-6">
                 As I continue this journey, I'm looking forward to interning as a <span className="font-semibold text-green-300">web developer</span>, gaining real-world experience, and eventually contributing to projects that make a real impact. 🚀
               </p>
+              </motion.div>
               </section>
             </div>
           </main>
