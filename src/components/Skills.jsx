@@ -54,9 +54,9 @@ const Skills = () => {
                     <p className="text-white font-mono">Tailwind</p>
                 </div>
             </div>
-            <main>
+            {/* <main className='none lg:flex justify-center items-center mt-20'>
                 <Spline scene="https://prod.spline.design/JAjoG9krn5lMAogV/scene.splinecode"/>
-            </main>
+            </main> */}
         </div>
     </motion.main>}
     </div>

@@ -5,25 +5,23 @@ const Contact = () => {
   return (
     <>
         <motion.main initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,ease:"easeOut"}}>
-            <div className="mt-32 flex flex-col gap-36 md:flex-row md:gap-24 lg:text-xl">
-                <div className="ml-10">
+            <div className="mt-32 flex flex-col justify-center items-center lg:text-xl">
+                <div className="ml-96">
                     <div className="flex justify-start items-center">
-                        <h1 className="text-white font-mono text-4xl text-center p-10">Contact Me</h1>
+                        <h1 className="text-white font-extrabold text-4xl text-center p-10">Contact Me</h1>
                         <DotLottieReact src="https://lottie.host/faded867-64d2-4d4f-adfe-5b10476714fb/9A2nTN6BzD.lottie" loop autoplay className="w-52"/>
                     </div>
                     <div>
-                        <p className="text-white font-mono text-center p-8">Discuss a Project or just want to say Hi! My inbox is open for all.</p>
-                        <p className="text-white font-mono text-center p-6 md:text-left">+91-7995934899</p>
-                        <p className="text-white font-mono text-center p-6 text-2xl md:text-left">yatin4591@gmail.com</p>
+                        <p className="text-white font-bold text-left p-4">Discuss a Project or just want to say Hi! My inbox is open for all.</p>
+                        <p className="text-white font-extrabold text-left p-6 text-2xl md:text-left">yatin4591@gmail.com</p>
                         <div className="flex items-center justify-center p-4">
-                        <a href="https://www.instagram.com/yatinsingh2007" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-600 text-3xl">
-                            <FaInstagram />
-                        </a>
+                        <div className="flex justify-start w-screen">
+                            <div><a href="https://www.instagram.com/yatinsingh2007" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-600 text-3xl">
+                            <FaInstagram /></a>
+                            </div>
+                        </div>
                     </div>
                     </div>
-                </div>
-                <div className="flex justify-center items-center cursor-pointer">
-                    <DotLottieReact src="https://lottie.host/0e7433d7-9d3a-4bd3-ad0a-184aae0bbb7f/9rniCeSyR0.lottie" loop autoplay className="w-72"/>
                 </div>
             </div>
         </motion.main>
