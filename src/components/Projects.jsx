@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <>
         <main className="p-4">
-            <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+            <div className="grid grid-cols-1 gap-10 md:grid-cols-3 -z-10 relative">
                 {projects.map((project, index) => (
                 <div key={index} className="bg-gray-800 rounded-xl p-2 shadow-lg shadow-cyan-500 transition-transform duration-500 hover:scale-105" style = {{
                     transformStyle: "preserve-3d",

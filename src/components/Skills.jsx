@@ -12,8 +12,7 @@ const Skills = () => {
   return (
     <div>
         {loader ?  <div className="flex justify-center items-center pt-64">
-        <DotLottieReact
-          src="https://lottie.host/75353f69-e2e5-4de9-ade3-6cc6e701228b/xDzf00cBIp.lottie"
+        <DotLottieReact src="https://lottie.host/75353f69-e2e5-4de9-ade3-6cc6e701228b/xDzf00cBIp.lottie"
           loop
           autoplay
           className="w-64"
