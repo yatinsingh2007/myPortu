@@ -1,7 +1,6 @@
 import {motion} from 'framer-motion'
 import { useState , useEffect} from 'react';
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import Spline from '@splinetool/react-spline';
 const Skills = () => {
     const [loader,setLoader] = useState(true)
     useEffect(() => {
