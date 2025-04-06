@@ -7,7 +7,7 @@ const Projects = () => {
         },
         {
             imgLink : `https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/378/827/datas/original.jpg`,
-            projectLink : `https://claude-chef.netlify.app/`,
+            projectLink : `https://claude-chef.netlify.app`,
             projectName : `Claude Chef`
         },
         {
@@ -29,13 +29,10 @@ const Projects = () => {
   return (
     <>
         <main className="p-4">
-            <div className="grid grid-cols-1 gap-10 md:grid-cols-3 -z-10 relative">
+            <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
                 {projects.map((project, index) => (
-                <div key={index} className="bg-gray-800 rounded-xl p-2 shadow-lg shadow-cyan-500 transition-transform duration-500 hover:scale-105" style = {{
-                    transformStyle: "preserve-3d",
-                    perspective: "1000px",
-                }}>
-                    <div className="hover:rotate-x-3 hover:rotate-y-3">
+                <div key={index} className="bg-gray-800 rounded-xl p-2 shadow-lg shadow-cyan-500 transition-transform duration-500 transform hover:scale-105 hover:rotate-1 hover:-translate-y-1">
+                    <div>
                         <img src={project.imgLink} alt="project" className="w-full h-64 object-cover rounded-lg" />
                     </div>
                     <div className="flex justify-between mt-2">
