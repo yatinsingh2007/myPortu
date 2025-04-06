@@ -22,7 +22,6 @@ function App() {
     <BrowserRouter>
       {isMobile ? <HamburgerNav/> : <Navbar/>}
       <Routes>
-        <Route path="/" element = {<Home/>}/>
         <Route path="/home" element={<Home />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact/>}/>
